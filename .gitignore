@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+*.local
+.env
+vite.config.*.timestamp-*.mjs
+
+# Supabaseの接続情報が記載された作業用ファイル・Officeのロックファイル
+*.docx
+~$*
