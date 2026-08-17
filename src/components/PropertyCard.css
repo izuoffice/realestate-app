@@ -1,0 +1,58 @@
+.property-card {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.property-name {
+  margin: 0 0 8px;
+  font-size: 1.1rem;
+}
+
+.property-rent {
+  margin: 0 0 4px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.property-area {
+  margin: 0 0 4px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.property-layout {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.property-card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.property-card-actions button {
+  padding: 6px 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.property-card-actions button:hover {
+  background-color: #f0f0f0;
+}
+
+.property-delete-button {
+  color: #d33;
+  border-color: #f0c0c0;
+}
+
+.property-delete-button:hover {
+  background-color: #fdecec;
+}

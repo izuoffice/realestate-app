@@ -39,33 +39,32 @@
   background-color: #f0f0f0;
 }
 
+.properties-error {
+  color: #d33;
+  margin-bottom: 16px;
+}
+
+.properties-empty {
+  color: #666;
+}
+
+.property-add-button {
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2563eb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.property-add-button:hover {
+  background-color: #1d4ed8;
+}
+
 .properties-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 16px;
-}
-
-.property-card {
-  background-color: #fff;
-  border: 1px solid #e5e5e5;
-  border-radius: 8px;
-  padding: 16px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-}
-
-.property-name {
-  margin: 0 0 8px;
-  font-size: 1.1rem;
-}
-
-.property-rent {
-  margin: 0 0 4px;
-  font-weight: bold;
-  color: #2563eb;
-}
-
-.property-area {
-  margin: 0;
-  color: #666;
-  font-size: 0.9rem;
 }
